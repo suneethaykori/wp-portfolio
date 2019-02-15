@@ -8,7 +8,7 @@ import Contact from './contact.js';
 
 class App extends Component {
   state = {
-    currentPage: 'home',
+    currentPage: 'portfolio',
     contactOn: false
   }
 
@@ -43,7 +43,7 @@ class App extends Component {
     return (
         <div>
         <div className="navitem">
-        <button className="button button2 " onClick={() => this.handleButton('home')}> Home </button>
+        <button className="button button2 " onClick={() => this.handleButton('home')}> About </button>
         <button className="button button2" onClick={() => this.handleButton('portfolio')}> Portfolio </button>
         <button className="button button2" onClick={() => this.handleButton('contact')}> Contact </button>
         </div>

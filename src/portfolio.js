@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-
+import adm from './img/ADM_IMG.JPG';
+import fola from './img/fola.JPG';
+import lahc from './img/lahc.JPG';
+import dance from './img/dance.JPG';
+import bigread from './img/bigread.JPG';
+import avpacad from './img/avpacad.JPG';
 
 class Portfolio extends Component {
   constructor(props){
@@ -8,24 +13,52 @@ class Portfolio extends Component {
   render(){
     return(
       <div>
-        <h1>Portfolio</h1>
+        <h1>Portfolio - Suneetha Kori</h1>
         <div className="boxalign">
-          <a href =" https://suneethaykori.github.io/web-workbook/checkpoint1/" target="_blank">
+
+          <a href ="http://sites.austincc.edu/dance/" target="_blank">
           <div className="box">
-          <h3> Mock Up Ecommerce Website </h3>
-          <p><i class="fab fa-html5 fa-3x"></i> <i class="fab fa-css3 fa-3x"></i> </p>
+          <h3> Austin Community College - Dance Department Website </h3>
+          <img src={dance} alt="Dance" />;
+          <p></p>
           </div>
           </a>
-          <a href="https://suneethaykori.github.io/web-workbook/checkpoint2/"target="_blank">
+
+
+          <a href="http://dean.acclahc.org/" target="_blank">
           <div className="box">
-          <h3>Responsive Website </h3>
-          <p> <i class="fab fa-html5 fa-3x"></i> <i class="fab fa-css3 fa-3x"></i> </p>
+          <h3>Austin Community College - LAHC Dean's Blog </h3>
+          <img src={lahc} alt="LAHC Dean" />;
           </div>
           </a>
-          <a href="https://suneethaykori.github.io/web-workbook/checkpoint3/"target="_blank">
+
+
+          <a href="http://sites.austincc.edu/fola/" target="_blank">
           <div className="box">
-          <h3>Dart Game </h3>
-          <p> <i class="fab fa-html5 fa-3x"></i> <i class="fab fa-css3 fa-3x"></i> <i class="fab fa-js fa-3x"></i> </p>
+          <h3>Austin Community College - Department of Foreign Languages </h3>
+          <img src={fola} alt="FOLA" />;
+          </div>
+          </a>
+
+
+          <a href="http://sites.austincc.edu/adm/"  target="_blank">
+          <div className="box">
+          <h3>Austin Community College - Department of Arts and Digital Media </h3>
+          <img src={adm} alt="ADM_IMG" />;
+          </div>
+          </a>
+
+          <a href="http://bigreadatx.acclahc.org" target="_blank">
+          <div className="box">
+          <h3>Austin Community College - BigRead </h3>
+          <img src={bigread} alt="Big Read" />;
+          </div>
+          </a>
+
+          <a href="http://sites.austincc.edu/avpacad/"  target="_blank">
+          <div className="box">
+          <h3>Austin Community College - AVP Academics </h3>
+          <img src={avpacad} alt="AVP Acad" />;
           </div>
           </a>
 

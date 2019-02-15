@@ -18,7 +18,8 @@ class Home extends Component {
           </p>
 
         </div>
-      </div>    );
+      </div>
+    );
   }
 
 
